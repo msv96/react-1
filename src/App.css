@@ -34,7 +34,7 @@
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
 }
-.Card:hover {
+.card:hover {
   transform: translateY(-10px);
 }
 ul > li {
@@ -52,8 +52,8 @@ li > span {
   width: 100%;
   padding: 20px;
   border-radius: 30px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
-.btn:hover {
+.btn1:hover {
   opacity: 1;
 }
