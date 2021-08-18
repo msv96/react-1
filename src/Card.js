@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons'
 
-export default function Content({ type, price, list }) {
+export default function Card({ type, price, list }) {
   return (
     <div className="card">
       <div className="type0">{type}</div>
@@ -20,7 +20,7 @@ export default function Content({ type, price, list }) {
                 <FontAwesomeIcon icon={faTimes} fixedWidth />
               )}
             </span>
-            {el.name}
+            {el.isBold ? <b>{el.name}</b> : el.name}
           </li>
         ))}
       </ul>
